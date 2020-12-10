@@ -1,7 +1,7 @@
 {
     "hooks": {
-        "pre-commit": "echo \"[Husky] pre-commit\" && echo \"$ lint-staged: \" && lint-staged && echo \"$ npm run test\" && npm run test",
-        "pre-push": "echo \"$ npm run test\" && npm run test",
+        "pre-commit": "echo \"[Husky] pre-commit\" && echo \"$ lint-staged: \" && lint-staged && echo \"$ npm run test\" && npm run test && echo \"\"",
+        "pre-push": "echo \"$ npm run test\" && npm run test && echo \"\"",
         "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
         "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
         "post-applypatch": "echo \"[Husky] post-applypatch\""
