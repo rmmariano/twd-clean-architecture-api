@@ -14,7 +14,9 @@ export class Email {
             return false
         }
 
-        console.log('domain ', domain)
+        if (domain.length > 255) {
+            return false
+        }
 
         return true
     }
