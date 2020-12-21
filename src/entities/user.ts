@@ -7,6 +7,7 @@ export class User {
     static create (userData: UserData): Either<InvalidEmailError, User> {
         const emailOrError = Email.create(userData.email)
 
+        // if error (left)
         if (emailOrError.isLeft()) {
             return left(new InvalidEmailError())
         }
