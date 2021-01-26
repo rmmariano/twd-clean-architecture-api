@@ -5,7 +5,7 @@
 
 module.exports = {
     // A list of paths to directories that Jest should use to search for files in
-    roots: ['<rootDir>/src'],
+    roots: ['<rootDir>/test'],
 
     // The directory where Jest should output its coverage files
     coverageDirectory: 'coverage',
