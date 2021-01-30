@@ -1,4 +1,4 @@
-import { User } from '../../src/entities'
+import { User } from '@/entities'
 
 describe('User domain entity', () => {
     test('should create user with valid data', () => {
